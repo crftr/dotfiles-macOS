@@ -8,7 +8,7 @@ From the terminal
 
 ```bash
 # Create the necessary symlink 
-ln -s ./.vimrc ~/.vimrc
+ln -s ~/dotfiles/vim/.vimrc ~/.vimrc
 
 # Download vim-plug
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
