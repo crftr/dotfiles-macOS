@@ -1,6 +1,5 @@
 #!/bin/zsh
 #
-# author: Mike Herrera
 # source: github.com/crftr/dotfiles/install.sh
 #
 
