@@ -3,7 +3,7 @@
 # source: github.com/crftr/dotfiles/install.sh
 #
 
-# --- VIM ---------------------------------------
+echo "$fg[green]VIM ---------------------------------------"
 
 echo "VIM: symlinking .vimrc ..."
 rm -f ~/.vimrc
