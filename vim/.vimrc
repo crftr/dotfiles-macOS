@@ -1,3 +1,4 @@
+"-- PLUGINS ----------------------------------------------------------
 call plug#begin('~/.vim/plugged')
 
 Plug 'tpope/vim-sensible'
@@ -7,8 +8,13 @@ Plug 'rking/ag.vim'		" Search within files
 
 call plug#end()
 
-set relativenumber
-set number
+
+"-- APPEARANCE -------------------------------------------------------
+colorscheme sourcerer
+syntax on
 
 " Highlighting for column 81+
 let &colorcolumn=join(range(81,999),",")
+
+set relativenumber
+set number
