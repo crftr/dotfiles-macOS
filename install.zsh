@@ -6,7 +6,8 @@
 echo "$fg[green]VIM ---------------------------------------"
 
 echo "VIM: copying color themes..."
-cp -f ~/dotfiles/vim/colors/*.vim ~/.vim/colors
+mkdir -p ~/.vim/colors
+cp -f ~/dotfiles/vim/colors/*.vim ~/.vim/colors/
 
 echo "VIM: symlinking .vimrc ..."
 rm -f ~/.vimrc
