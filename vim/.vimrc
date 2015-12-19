@@ -24,6 +24,5 @@ autocmd Filetype ruby setlocal ts=2 sw=2 expandtab
 syntax on                    " Enable syntax highlighting
 colorscheme sourcerer
 
-" Highlighting for column 81+
-let &colorcolumn=join(range(81,999),",")
-
+set textwidth=80
+set colorcolumn=+1
