@@ -13,6 +13,7 @@ call plug#end()
 set nocompatible             " We're running Vim, not Vi!
 set relativenumber
 set number
+set clipboard=unnamed        " Use the OSX clipboard
 
 filetype on                  " Enable filetype detection
 filetype plugin on           " Enable filetype-specific plugins
