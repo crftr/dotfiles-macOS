@@ -6,10 +6,15 @@
 echo "$fg[green]Symlinking dotfiles -----------------------"
 
 for f in *; do
-	BASE=`basename $f`;
 	CWD=`pwd`
-	# Don't link install script or dotfiles
-	if [[ ("${BASE:0:1}" == ".")]]; then
+	BASE=`basename $f`
+	EXT="${BASE##*.}"
+
+	# Don't link install script, dotfiles, or markdown
+	if [[ ("${BASE:0:1}" == ".")]]
+	then
+		continue
+	else [[ ("$EXT" == "md")]]
 		continue
 	fi
 	ln -sin "${CWD}/${BASE}" "${HOME}/.${BASE}"
