@@ -25,6 +25,8 @@ autocmd Filetype ruby setlocal ts=2 sw=2 expandtab
 set backupdir=~/.vim/backup//
 set directory=~/.vim/swp//
 
+let NERDTreeShowHidden=1     " Show dotfiles by default
+
 "-- APPEARANCE -------------------------------------------------------
 syntax on                    " Enable syntax highlighting
 colorscheme sourcerer
