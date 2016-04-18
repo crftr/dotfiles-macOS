@@ -2,4 +2,6 @@
 
 vim/.netrwhist
 vim/autoload/
+vim/backup/
 vim/plugged/
+vim/swp/
