@@ -8,6 +8,9 @@ Plug 'scrooloose/nerdtree'
 Plug 'ctrlpvim/ctrlp.vim'    " Fuzzy search on filenames
 Plug 'rking/ag.vim'          " Search within files
 
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+
 call plug#end()
 
 "-- BEHAVIOR ---------------------------------------------------------
@@ -25,16 +28,23 @@ autocmd Filetype ruby setlocal ts=2 sw=2 expandtab
 set backupdir=~/.vim/backup//
 set directory=~/.vim/swp//
 
-let NERDTreeShowHidden=1     " Show dotfiles by default
-
 "-- APPEARANCE -------------------------------------------------------
 syntax on                    " Enable syntax highlighting
 colorscheme sourcerer
+
+let airline_theme           = 'molokai'
+let airline_powerline_fonts = 1
+if !exists('g:airline_symbols')
+	let airline_symbols = {}
+endif
 
 set relativenumber
 set number
 set textwidth=80
 set colorcolumn=+1
+
+let NERDTreeShowHidden = 1   " Show dotfiles by default
+let NERDTreeWinSize    = 40
 
 "-- LOAD OTHERS ------------------------------------------------------
 source ~/.vim/mappings.vim
