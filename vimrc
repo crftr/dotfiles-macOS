@@ -17,6 +17,7 @@ call plug#end()
 set nocompatible             " We're running Vim
 set hidden
 set clipboard=unnamed        " Use the OSX clipboard
+set autoread                 " Reload files changed outside vim
 
 filetype on                  " Enable filetype detection
 filetype plugin on           " Enable filetype-specific plugins
