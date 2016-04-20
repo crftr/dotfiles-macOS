@@ -42,6 +42,7 @@ set relativenumber
 set number
 set textwidth=80
 set colorcolumn=+1
+set showcmd
 
 let NERDTreeShowHidden = 1   " Show dotfiles by default
 let NERDTreeWinSize    = 40
