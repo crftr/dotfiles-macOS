@@ -7,6 +7,7 @@ Plug 'vim-ruby/vim-ruby'
 Plug 'scrooloose/nerdtree'
 Plug 'ctrlpvim/ctrlp.vim'    " Fuzzy search on filenames
 Plug 'rking/ag.vim'          " Search within files
+Plug 'roman/golden-ratio'
 
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
