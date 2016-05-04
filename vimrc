@@ -9,8 +9,9 @@ Plug 'vim-ruby/vim-ruby'
 Plug 'scrooloose/nerdtree'
 Plug 'ctrlpvim/ctrlp.vim'    " Fuzzy search on filenames
 Plug 'rking/ag.vim'          " Search within files
-Plug 'roman/golden-ratio'
+Plug 'haya14busa/incsearch.vim'
 
+Plug 'roman/golden-ratio'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 
@@ -47,9 +48,7 @@ set number
 set textwidth=80
 set colorcolumn=+1
 set showcmd
-
-let NERDTreeShowHidden = 1   " Show dotfiles by default
-let NERDTreeWinSize    = 40
+set hlsearch
 
 "-- LOAD OTHERS ------------------------------------------------------
 source ~/.vim/mappings.vim
