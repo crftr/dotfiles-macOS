@@ -3,6 +3,7 @@ call plug#begin('~/.vim/plugged')
 
 Plug 'tpope/vim-sensible'
 Plug 'tpope/vim-commentary'
+Plug 'tpope/vim-repeat'
 Plug 'vim-ruby/vim-ruby'
 
 Plug 'scrooloose/nerdtree'
