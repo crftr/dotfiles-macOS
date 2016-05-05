@@ -6,11 +6,13 @@ Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-repeat'
 Plug 'vim-ruby/vim-ruby'
 
+" Search and exploring
 Plug 'scrooloose/nerdtree'
 Plug 'ctrlpvim/ctrlp.vim'    " Fuzzy search on filenames
 Plug 'rking/ag.vim'          " Search within files
 Plug 'haya14busa/incsearch.vim'
 
+" Appearance
 Plug 'roman/golden-ratio'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
@@ -48,7 +50,7 @@ set number
 set textwidth=80
 set colorcolumn=+1
 set showcmd
-set hlsearch
 
 "-- LOAD OTHERS ------------------------------------------------------
 source ~/.vim/mappings.vim
+source ~/.vim/searching.vim
