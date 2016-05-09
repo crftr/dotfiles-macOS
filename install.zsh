@@ -20,4 +20,4 @@ echo "TMUX: linking dotfiles"
 rm -f ~/.tmux.conf
 ln -s ~/dotfiles/tmux.conf ~/.tmux.conf
 
-echo "INSTALLATION COMPLETE"
+echo "\n\nINSTALLATION COMPLETE\n\n"
