@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-echo "$fg[green]VIM ---------------------------------------"
+echo "\nVIM ---------------------------------------"
 
 echo "VIM: linking dotfiles"
 rm -rf ~/.vim ~/.vimrc
@@ -14,7 +14,7 @@ curl -s -fLo ~/.vim/autoload/plug.vim --create-dirs \
 echo "VIM: downloading and installing plugins ..."
 vim +PlugInstall +qall
 
-echo "$fg[green]TMUX --------------------------------------"
+echo "\nTMUX --------------------------------------"
 
 echo "TMUX: linking dotfiles"
 rm -f ~/.tmux.conf
