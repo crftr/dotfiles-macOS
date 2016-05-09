@@ -1,7 +1,7 @@
 #!/bin/zsh
 
 # VIM
-echo "\n"
+echo ""
 echo "VIM: linking dotfiles"
 rm -rf ~/.vim ~/.vimrc
 ln -s ~/dotfiles/vim ~/.vim
@@ -15,7 +15,7 @@ echo "VIM: downloading and installing plugins ..."
 vim +PlugInstall +qall
 
 # TMUX
-echo "\n"
+echo ""
 echo "TMUX: linking dotfiles"
 rm -f ~/.tmux.conf
 ln -s ~/dotfiles/tmux.conf ~/.tmux.conf
