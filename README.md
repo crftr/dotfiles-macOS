@@ -4,9 +4,10 @@ My dotfiles for OSX
 
 ## Pre-installation
 
-Install [Homebrew](http://brew.sh) \
+First, install [Homebrew](http://brew.sh)
 and [Xcode Command-Line Tools](https://goo.gl/rjiP5B).
 
+Then:
 ```bash
 brew update && brew install  \
     git                      \
