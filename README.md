@@ -4,25 +4,27 @@ My dotfiles for OSX
 
 ## Pre-installation
 
-#### Update VIM
-
-The stock OS X El Capitan version of vim will not honor all `.vimrc` directives.
-Save yourself the confusion of troubleshooting the incompatibilities -- install
-over the system vim.
+Install [Homebrew](http://brew.sh) \
+and [Xcode Command-Line Tools](https://goo.gl/rjiP5B).
 
 ```bash
-$ brew update
-$ brew install vim --override-system-vi
+brew update && brew install  \
+    git                      \
+    vim --override-system-vi \
+    the_silver_searcher      \
+    tmux
+
+brew upgrade --cleanup && brew doctor
 ```
 
 ## Install
 
 Clone the repo locally
 ```bash
-$ git clone git@github.com:crftr/dotfiles.git ~/dotfiles
+git clone git@github.com:crftr/dotfiles.git ~/dotfiles
 ```
 
 Run the install script
 ```bash
-$ ~/dotfiles/install.zsh
+~/dotfiles/install.zsh
 ```
