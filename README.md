@@ -9,11 +9,14 @@ and [Xcode Command-Line Tools](https://goo.gl/rjiP5B).
 
 Then:
 ```bash
+brew tap Goles/battery
+
 brew update && brew install  \
     git                      \
     vim --override-system-vi \
     the_silver_searcher      \
-    tmux
+    tmux                     \
+    battery
 
 brew upgrade --cleanup && brew doctor
 ```
