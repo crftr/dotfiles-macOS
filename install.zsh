@@ -1,8 +1,7 @@
 #!/bin/zsh
 
 # VIM
-echo "\nVIM ---------------------------------------"
-
+echo "\n"
 echo "VIM: linking dotfiles"
 rm -rf ~/.vim ~/.vimrc
 ln -s ~/dotfiles/vim ~/.vim
@@ -15,16 +14,11 @@ curl -s -fLo ~/.vim/autoload/plug.vim --create-dirs \
 echo "VIM: downloading and installing plugins ..."
 vim +PlugInstall +qall
 
-echo "\nVIM ---------------------------------------"
-
 # TMUX
-echo "\nTMUX --------------------------------------"
-
+echo "\n"
 echo "TMUX: linking dotfiles"
 rm -f ~/.tmux.conf
 ln -s ~/dotfiles/tmux.conf ~/.tmux.conf
-
-echo "\nTMUX --------------------------------------"
 
 # That's all folks...
 echo "\n\nINSTALLATION COMPLETE\n\n"
