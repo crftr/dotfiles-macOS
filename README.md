@@ -1,6 +1,8 @@
 # dotfiles
 
-My dotfiles for OSX
+My dotfiles for OSX.  Currently included:
+* [tmux](https://tmux.github.io/)
+* [vim](http://vim.org)
 
 ## Pre-installation
 
