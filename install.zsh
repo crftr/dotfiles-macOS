@@ -20,5 +20,11 @@ echo "TMUX: linking dotfiles"
 rm -f ~/.tmux.conf
 ln -s ~/dotfiles/tmux.conf ~/.tmux.conf
 
+# BIN
+echo ""
+echo "BIN: linking bin scripts"
+rm -f /usr/local/bin/tat
+ln -s ~/dotfiles/bin/tat /usr/local/bin/tat
+
 # That's all folks...
 echo "\n\nINSTALLATION COMPLETE\n\n"

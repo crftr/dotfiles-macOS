@@ -18,7 +18,8 @@ brew update && brew install  \
     vim --override-system-vi \
     the_silver_searcher      \
     tmux                     \
-    battery
+    battery                  \
+    reattach-to-user-namespace
 
 brew upgrade --cleanup && brew doctor
 ```
