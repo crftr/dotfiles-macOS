@@ -32,6 +32,7 @@ filetype indent on           " Enable filetype-specific indenting
 
 autocmd Filetype ruby setlocal ts=2 sw=2 expandtab
 autocmd Filetype sh   setlocal ts=2 sw=2 expandtab
+autocmd Filetype js   setlocal ts=2 sw=2 expandtab
 
 " Backups are cool, just don't write them all over the place
 set backupdir=~/.vim/backup//
