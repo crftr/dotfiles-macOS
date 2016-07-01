@@ -21,6 +21,8 @@ Plug 'vim-airline/vim-airline-themes'
 call plug#end()
 
 "-- BEHAVIOR ---------------------------------------------------------
+let mapleader = "\<Space>"
+
 set nocompatible             " We're running Vim
 set hidden
 set clipboard=unnamed        " Use the OSX clipboard
@@ -54,6 +56,7 @@ set textwidth=80
 set colorcolumn=+1
 set showcmd
 
-"-- LOAD OTHERS ------------------------------------------------------
-source ~/.vim/mappings.vim
-source ~/.vim/searching.vim
+"-- LOAD OTHERS -----------------------------------------------------
+for fpath in split(globpath('~/.vim/', '*.vim'), '\n')
+	exe 'source' fpath
+endfor
