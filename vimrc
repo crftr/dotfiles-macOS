@@ -6,6 +6,7 @@ Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-repeat'
 Plug 'vim-ruby/vim-ruby'
 Plug 'christoomey/vim-tmux-navigator'
+Plug 'christoomey/vim-tmux-runner'
 
 " Search and exploring
 Plug 'scrooloose/nerdtree'
@@ -35,6 +36,7 @@ filetype indent on           " Enable filetype-specific indenting
 autocmd Filetype ruby       setlocal ts=2 sw=2 expandtab
 autocmd Filetype sh         setlocal ts=2 sw=2 expandtab
 autocmd Filetype javascript setlocal ts=2 sw=2 expandtab
+autocmd Filetype vim        setlocal ts=2 sw=2 expandtab
 
 " Backups are cool, just don't write them all over the place
 set backupdir=~/.vim/backup//
@@ -47,7 +49,7 @@ colorscheme sourcerer
 let airline_theme           = 'molokai'
 let airline_powerline_fonts = 1
 if !exists('g:airline_symbols')
-	let airline_symbols = {}
+  let airline_symbols = {}
 endif
 
 set relativenumber
@@ -58,5 +60,5 @@ set showcmd
 
 "-- LOAD OTHERS -----------------------------------------------------
 for fpath in split(globpath('~/.vim/', '*.vim'), '\n')
-	exe 'source' fpath
+  exe 'source' fpath
 endfor
