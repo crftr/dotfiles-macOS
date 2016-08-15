@@ -17,11 +17,15 @@ brew update && brew install  \
     git                      \
     vim --override-system-vi \
     the_silver_searcher      \
+    ctags                    \
     tmux                     \
     battery                  \
     reattach-to-user-namespace
 
 brew upgrade --cleanup && brew doctor
+
+gem install bundler gem-ctags
+gem ctags
 ```
 
 ## Install
