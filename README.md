@@ -22,7 +22,7 @@ brew update && brew install  \
     battery                  \
     reattach-to-user-namespace
 
-brew upgrade --cleanup && brew doctor
+brew doctor
 
 gem install bundler gem-ctags
 gem ctags
