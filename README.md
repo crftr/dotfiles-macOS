@@ -15,6 +15,7 @@ brew tap Goles/battery
 
 brew update && brew install  \
     git                      \
+    tig                      \
     vim --override-system-vi \
     the_silver_searcher      \
     ctags                    \
