@@ -13,14 +13,14 @@ Then:
 ```bash
 brew tap Goles/battery
 
-brew update && brew install  \
-    git                      \
-    tig                      \
-    vim --override-system-vi \
-    the_silver_searcher      \
-    ctags                    \
-    tmux                     \
-    battery                  \
+brew update && brew install       \
+    git                           \
+    tig                           \
+    vim --with-override-system-vi \
+    the_silver_searcher           \
+    ctags                         \
+    tmux                          \
+    battery                       \
     reattach-to-user-namespace
 
 brew doctor
