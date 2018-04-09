@@ -2,6 +2,16 @@
 set hlsearch
 set smartcase
 
+" Ctrl-P
+let g:ctrlp_cache_dir = $HOME . '/.cache/ctrlp'
+if executable('ag')
+  let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
+endif
+
+let g:ctrlp_show_hidden = 1
+
+set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*/.tmp/*,*/.sass-cache/*,*/node_modules/*,*.keep,*.DS_Store,*/.git/*
+
 " incsearch.vim
 let g:incsearch#auto_nohlsearch = 1
 map /  <Plug>(incsearch-forward)
