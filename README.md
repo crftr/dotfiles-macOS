@@ -6,8 +6,8 @@ My dotfiles for OSX.  Currently included:
 
 ## Pre-installation
 
-First, install [Homebrew](http://brew.sh),
-and [Xcode Command-Line Tools](https://goo.gl/rjiP5B),
+First install [Homebrew](http://brew.sh),
+[Xcode Command-Line Tools](https://goo.gl/rjiP5B),
 and [Nerd Fonts](https://nerdfonts.com/).
 
 Then:
