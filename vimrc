@@ -21,6 +21,8 @@ Plug 'haya14busa/incsearch.vim'
 Plug 'roman/golden-ratio'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+Plug 'ryanoasis/vim-devicons'
+Plug 'vwxyutarooo/nerdtree-devicons-syntax'
 
 call plug#end()
 
@@ -55,6 +57,7 @@ if !exists('g:airline_symbols')
   let airline_symbols = {}
 endif
 
+set encoding=utf8
 set relativenumber
 set number
 set textwidth=80
