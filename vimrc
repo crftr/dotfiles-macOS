@@ -17,6 +17,9 @@ Plug 'ctrlpvim/ctrlp.vim'    " Fuzzy search on filenames
 Plug 'rking/ag.vim'          " Search within files
 Plug 'haya14busa/incsearch.vim'
 
+" Project configuration
+Plug 'editorconfig/editorconfig-vim'
+
 " Appearance
 Plug 'roman/golden-ratio'
 Plug 'vim-airline/vim-airline'
