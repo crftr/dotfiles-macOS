@@ -1,7 +1,6 @@
 #!/bin/zsh
 
 # VIM
-echo ""
 echo "VIM: linking dotfiles"
 rm -rf ~/.vim ~/.vimrc
 ln -s ~/dotfiles/vim ~/.vim
@@ -15,16 +14,20 @@ echo "VIM: downloading and installing plugins ..."
 vim +PlugInstall +qall
 
 # TMUX
-echo ""
 echo "TMUX: linking dotfiles"
 rm -f ~/.tmux.conf
 ln -s ~/dotfiles/tmux.conf ~/.tmux.conf
 
 # BIN
-echo ""
 echo "BIN: linking bin scripts"
 rm -f /usr/local/bin/tat
 ln -s ~/dotfiles/bin/tat /usr/local/bin/tat
+
+# Spacemacs
+echo "Spacemacs: linking dotfiles"
+rm -rf ~/.spacemacs.d
+rm -f ~/.spacemacs
+ln -s ~/dotfiles/spacemacs ~/.spacemacs.d
 
 # That's all folks...
 echo "\n\nINSTALLATION COMPLETE\n\n"
