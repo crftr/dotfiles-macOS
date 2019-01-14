@@ -331,6 +331,7 @@ you should place your code here."
 
   (setq powerline-default-separator 'butt)
   (setq neo-theme 'classic)
+  (setq neo-window-fixed-size nil)
 
   "Web-mode config"
   (add-to-list 'auto-mode-alist '("\\.tpl\\'" . web-mode))
