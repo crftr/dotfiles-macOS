@@ -132,7 +132,7 @@ values."
    dotspacemacs-themes
    '(
      gruvbox
-     ;; material
+     material
      ;; afternoon
      ;; darktooth
      ;; sanityinc-tomorrow-eighties
@@ -317,8 +317,8 @@ before packages are loaded. If you are unsure, you should try in setting them in
 `dotspacemacs/user-config' first."
 
   (setq-default git-magit-status-fullscreen t)
-  (load-file "~/.emacs.d/elpa/dash-20180910.1856/dash.el")
-  (load-file "~/.emacs.d/elpa/autothemer-20180920.923/autothemer.el")
+  (mapc 'load (file-expand-wildcards "~/.emacs.d/elpa/dash-*/dash.el"))
+  (mapc 'load (file-expand-wildcards "~/.emacs.d/elpa/autothemer-*/autothemer.el"))
   )
 
 (defun dotspacemacs/user-config ()
