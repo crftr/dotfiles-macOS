@@ -1,6 +1,6 @@
 # dotfiles
 
-My dotfiles for OSX.  Currently included:
+My dotfiles for macOS.  Currently included:
 * [tmux](https://tmux.github.io)
 * [vim](https://www.vim.org/)
 * [spacemacs](http://spacemacs.org)
