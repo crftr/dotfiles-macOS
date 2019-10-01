@@ -1,4 +1,4 @@
-# dotfiles
+# dotfiles-macOS
 
 My dotfiles for macOS.  Currently included:
 * [tmux](https://tmux.github.io)
@@ -8,6 +8,7 @@ My dotfiles for macOS.  Currently included:
 ## Pre-installation
 
 First install [Homebrew](http://brew.sh),
+[ZSH and Oh My Zsh](https://ohmyz.sh),
 [Xcode Command-Line Tools](https://goo.gl/rjiP5B),
 and [Nerd Fonts](https://nerdfonts.com/).
 
