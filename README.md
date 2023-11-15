@@ -15,6 +15,7 @@ and [Nerd Fonts](https://nerdfonts.com/).
 Then:
 ```bash
 brew tap Goles/battery
+brew tap smittytone/homebrew-smittytone
 
 brew update && brew install       \
     git                           \
@@ -24,7 +25,8 @@ brew update && brew install       \
     ctags                         \
     tmux                          \
     battery                       \
-    reattach-to-user-namespace
+    reattach-to-user-namespace    \
+    imageprep
 
 brew doctor
 
