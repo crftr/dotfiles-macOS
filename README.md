@@ -26,7 +26,8 @@ brew update && brew install       \
     tmux                          \
     battery                       \
     reattach-to-user-namespace    \
-    imageprep
+    imageprep                     \
+    lighttpd
 
 brew doctor
 
